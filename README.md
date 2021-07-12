@@ -38,6 +38,10 @@ $ npm install
 # development
 $ npm run start
 
+sample: http://localhost:3000/api/tarrif/compare-products-by-consumption/6000
+
+output: [{"tarrifName":"basic electricity tariff","annualCost":1380},{"tarrifName":"Packaged tariff","annualCost":1400}]
+
 # watch mode
 $ npm run start:dev
 
